@@ -1,3 +1,9 @@
+// usage:
+//   node generate_lines.mjs <number_of_lines>
+//
+// creates a file called `./lines.txt` which can be used for running/testing the
+// exercises that require reading input lines.
+
 import crypto from 'crypto'
 import { writeFile } from 'node:fs';
 
